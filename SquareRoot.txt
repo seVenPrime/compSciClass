@@ -1,0 +1,38 @@
+HOW TO SOLVE x=sqrt(5) USING MULTIPLICATION (In this case to the hundreths place)
+
+Steps:
+
+1. Change form to x*x=5
+
+2. Pick a number that is <= 5/2   (If the number is 3,2,1,0, or a negative this wont work so you will have to guess a number that is roughly between 75%-100% of the number you are trying to find, negatives will be handled later)
+Example: 2.5
+
+3. Mulitply your chosen number by itself to get a product
+Example: 2.5*2.5 = 6.25
+
+	4. If your pick is over 5 reduce the first digit of your pick by 1    ELSE    4. If your pick is under 5 increase the first digit of your pick by 1
+	Example: Ours is over so we will decrease by 1 to create 1.5
+
+	5. Multiply your new pick by itself
+	Example: 1.5*1.5=2.25
+
+6.Decide which leading digit creates a product closest to 5
+(NOTE: If this does not create 2 values, 1 above and 1 below the value of the sqrted number (In this case 5), continue decreasing/increasing and checking each ones product until that product is less than the sqrted number if the pick was to high or greater than if the pick was to low. 
+You should then have the closest number for that values place whos product is to great and for whose product is to low.
+Example: 1.5(best too low choice) and 2.5(best to high choice)
+
+Example: 2.5*2.5=6.5 VS. 1.5*1.5=2.25
+5-2.25=|2.75|  VS. 5-6.5=|-1.5|
+(In this case 2 creates a closer product to 5)
+
+7. Choose the Pick that created the closest product to 5 and keep it in its values place
+Example: The 2 in 2.5
+
+8. Having locked in the best digit for that values place above move onto the next digit.
+
+9. Repeat steps 4 5 6 7 and 8 for every digit place you want accounted for in your answer.
+Example: If you want your answer to the thousandths place, do steps 4-8 3 times, once for each digit > 2.23 > The answer to the square root of 5... not rounded
+
+	
+	
+
